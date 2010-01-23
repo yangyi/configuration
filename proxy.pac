@@ -1,21 +1,26 @@
 function FindProxyForURL(url, host) {
-  if (
-      shExpMatch(host, "google.com") ||
-      shExpMatch(host, "*.google.com") ||
-      shExpMatch(host, "twitter.com") ||
-      shExpMatch(host, "*.twitter.com") ||
-      shExpMatch(host, "*.blogspot.com") ||
-      shExpMatch(host, "facebook.com") ||
-      shExpMatch(host, "*.facebook.com") ||
-      shExpMatch(host, "*.youtube.com") ||
-      shExpMatch(host, "*.ytimg.com") ||
-      shExpMatch(host, "*.bullogger.com") ||
-      shExpMatch(host, "*.hulu.com") ||
-      shExpMatch(host, "*.android.com") ||      
-      shExpMatch(host, "bit.ly") ||
-      false
-      ) {
-    return "PROXY localhost:7777";
+  var list = [
+    "google.com",
+    "*.google.com",
+    "twitter.com",
+    "*.twitter.com",
+    "*.blogspot.com",
+    "facebook.com",
+    "*.facebook.com",
+    "*.youtube.com",
+    "*.ytimg.com",
+    "*.bullogger.com",
+    "*.hulu.com",
+    "*.android.com",  
+    "bit.ly",         
+    "*.flickr.com",
+    "afreshcup.com"
+  ]
+  
+  var result = false;
+  for (var ix=0; ix < list.length; ix++) {
+    if (shExpMatch(host, list[ix])) { result = true }
   }
-  return "DIRECT";
+  return result == true ? "PROXY localhost:7777" : "DIRECT";
 }
+
