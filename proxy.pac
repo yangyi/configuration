@@ -11,6 +11,7 @@ function FindProxyForURL(url, host) {
       shExpMatch(host, "*.ytimg.com") ||
       shExpMatch(host, "*.bullogger.com") ||
       shExpMatch(host, "*.hulu.com") ||
+      shExpMatch(host, "*.android.com") ||      
       shExpMatch(host, "bit.ly") ||
       false
       ) {
