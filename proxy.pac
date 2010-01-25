@@ -4,7 +4,9 @@ function FindProxyForURL(url, host) {
     "*.google.com",
     "twitter.com",
     "*.twitter.com",
+    "*.blogger.com",
     "*.blogspot.com",
+    "www.hecaitou.net",
     "facebook.com",
     "*.facebook.com",
     "*.youtube.com",
@@ -14,6 +16,8 @@ function FindProxyForURL(url, host) {
     "*.android.com",  
     "bit.ly",         
     "*.flickr.com",
+    "*.wikipedia.org",
+    "twitpic.com",
     "afreshcup.com"
   ]
   
