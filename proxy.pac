@@ -7,6 +7,11 @@ function FindProxyForURL(url, host) {
     "*.blogger.com",
     "*.blogspot.com",
     "www.hecaitou.net",
+    "*.open-lab.com",
+    "*.taragana.com",
+    "*.rfa.org",
+    "*.elance.com",
+    "*.wordpress.com",
     "facebook.com",
     "*.facebook.com",
     "*.youtube.com",
@@ -18,6 +23,8 @@ function FindProxyForURL(url, host) {
     "*.flickr.com",
     "*.wikipedia.org",
     "twitpic.com",
+    "*.jquery.com",
+    "tinyurl.com",
     "afreshcup.com"
   ]
   
