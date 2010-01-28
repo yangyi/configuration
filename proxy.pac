@@ -2,6 +2,8 @@ function FindProxyForURL(url, host) {
   var list = [
     "google.com",
     "*.google.com",
+    "*.wenxuecity.com",
+    "*.twimg.com",
     "twitter.com",
     "*.twitter.com",
     "*.blogger.com",
