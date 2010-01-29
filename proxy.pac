@@ -1,14 +1,8 @@
 function FindProxyForURL(url, host) {
   var list = [
     "google.com",
+    "*.gongfa.org",
     "*.google.com",
-    "*.wenxuecity.com",
-    "*.rapidshare1.com",
-    "*.6park.com",
-    "*.thepiratebay.org",
-    "*.nowtorrents.com",
-    "thepiratebay.org",
-    "*.twimg.com",
     "twitter.com",
     "*.twitter.com",
     "*.blogger.com",
