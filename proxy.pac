@@ -7,6 +7,8 @@ function FindProxyForURL(url, host) {
     "*.openbittorrent.com",
     "*.python.org",
     "*.wii4everybody.com",
+    "*.youporn.com",
+    "youporn.com",
     "google.com",
     "*.gongfa.org",
     "*.google.com",
