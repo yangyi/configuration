@@ -19,6 +19,7 @@ function FindProxyForURL(url, host) {
     "*.mysql.com",
     "*.openeclair.com",
     "*.jamievandyke.com",
+    "*.vimeo.com",
     "*.github.com",
     "*.gmodules.com",
     "*.wikia.com",
